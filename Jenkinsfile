@@ -24,7 +24,7 @@ pipeline {
 			steps {
 				sshagent(credentials: ['f4808ddb-0310-4fe8-88e3-c64664195543']) {
 					sh 'npm ci'
-					sh 'npx semantic-release --skip-maven-deploy'
+					sh 'npx semantic-release'
 				}
 			}
         }
