@@ -1,3 +1,11 @@
+## [1.0.7](https://git.zueri.io/tool/semantic-release-test/compare/1.0.6...1.0.7) (2020-02-03)
+
+
+### Bug Fixes
+
+* Added exec plugin to package.json ([71c37f5](https://git.zueri.io/tool/semantic-release-test/commit/71c37f5ae7d2fce8018af28b547f2db9bda78b95))
+* Added shell script to increase pom.version, removed maven-semantic-plugin ([738545f](https://git.zueri.io/tool/semantic-release-test/commit/738545f974a2556675c18c9b12a9b40d64167188))
+
 ## [1.0.6](https://git.zueri.io/tool/semantic-release-test/compare/1.0.5...1.0.6) (2020-02-03)
 
 
