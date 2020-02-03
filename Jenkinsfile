@@ -25,14 +25,12 @@ pipeline {
                 stage('Build') {
                     steps {
                         sh 'mvn package -DskipTests'
-                        stash includes: 'target/*.jar', name: 'artifacts'
                     }
                 }
 
                 stage('Test') {
                     steps {
                         sh 'mvn test -Dmaven.test.failure.ignore=true'
-                        stash includes: '**/target/surefire-reports/*.xml', name: 'testResults'
                     }
                 }
             }
@@ -55,10 +53,7 @@ pipeline {
 
     post {
         always {
-            unstash 'artifacts'
-            unstash 'testResults'
             archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
-            junit '**/target/surefire-reports/*.xml'
         }
     }
 }
