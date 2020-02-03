@@ -2,7 +2,6 @@
 	"devDependencies": {
 		"@semantic-release/changelog": "^5.0.0",
 		"@semantic-release/git": "^9.0.0",
-		"maven-semantic-release": "^4.6.2",
 		"semantic-release": "^17.0.2"
 	},
 	"release": {
@@ -12,10 +11,10 @@
 			"@semantic-release/commit-analyzer",
 			"@semantic-release/release-notes-generator",
 			"@semantic-release/changelog",
-			"maven-semantic-release",
-			["@semantic-release/git", {
-				"assets": ["CHANGELOG.md", "pom.xml"]
-			}]
+			["@semantic-release/exec", {
+				"prepareCmd": "./scripts/prepare.sh ${nextRelease.version}"
+			}],
+			"@semantic-release/git"
 		]
 	}
 }
