@@ -14,27 +14,6 @@ pipeline {
     }
 
     stages {
-        stage('Build and test') {
-            agent {
-            	dockerfile {
-					dir 'jenkins'
-					args DOCKER_MAVEN_ARGS
-				}
-          	}
-            stages {
-                stage('Build') {
-                    steps {
-                        sh 'mvn package -DskipTests'
-                    }
-                }
-
-                stage('Test') {
-                    steps {
-                        sh 'mvn test -Dmaven.test.failure.ignore=true'
-                    }
-                }
-            }
-        }
         stage('Publish new version') {
         	agent {
 				dockerfile {
