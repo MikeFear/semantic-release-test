@@ -13,7 +13,9 @@
 			"@semantic-release/release-notes-generator",
 			"@semantic-release/changelog",
 			"maven-semantic-release",
-			"@semantic-release/git"
+			["@semantic-release/git", {
+				"assets": ["CHANGELOG.md", "pom.xml"]
+			}]
 		]
 	}
 }
