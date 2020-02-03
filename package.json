@@ -1,0 +1,14 @@
+{
+	"devDependencies": {
+		"@semantic-release/git": "^9.0.0",
+		"semantic-release": "^17.0.2"
+	},
+	"release": {
+		"repositoryUrl": "ssh://git@git.zueri.io:7999/tool/resolume-autopilot.git",
+		"tagFormat": "${version}",
+		"plugins": [
+			"@semantic-release/commit-analyzer",
+			"@semantic-release/release-notes-generator"
+		]
+	}
+}
