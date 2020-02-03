@@ -4,7 +4,7 @@
 		"semantic-release": "^17.0.2"
 	},
 	"release": {
-		"repositoryUrl": "ssh://git@git.zueri.io:7999/tool/resolume-autopilot.git",
+		"repositoryUrl": "ssh://git@git.zueri.io:7999/tool/semantic-release-test.git",
 		"tagFormat": "${version}",
 		"plugins": [
 			"@semantic-release/commit-analyzer",
