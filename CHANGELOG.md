@@ -1,3 +1,10 @@
+## [1.0.10](https://git.zueri.io/tool/semantic-release-test/compare/1.0.9...1.0.10) (2020-02-03)
+
+
+### Bug Fixes
+
+* Removed --skip-maven-deploy flag ([74a20e6](https://git.zueri.io/tool/semantic-release-test/commit/74a20e604753a8c4edcfe0f235347981ed536905))
+
 ## [1.0.9](https://git.zueri.io/tool/semantic-release-test/compare/1.0.8...1.0.9) (2020-02-03)
 
 
