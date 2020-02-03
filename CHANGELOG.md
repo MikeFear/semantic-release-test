@@ -1,3 +1,10 @@
+## [1.0.9](https://git.zueri.io/tool/semantic-release-test/compare/1.0.8...1.0.9) (2020-02-03)
+
+
+### Bug Fixes
+
+* Adjusted branch configuration to develop ([a7ba641](https://git.zueri.io/tool/semantic-release-test/commit/a7ba6417fe1d037805f568a1f93bd8a9fd9d6e34))
+
 ## [1.0.8](https://git.zueri.io/tool/semantic-release-test/compare/1.0.7...1.0.8) (2020-02-03)
 
 
