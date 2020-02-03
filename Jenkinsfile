@@ -1,4 +1,4 @@
-DOCKER_MAVEN_ARGS = '-v autopilot-maven-repository:/home/jenkins/.m2'
+DOCKER_MAVEN_ARGS = '-v semantic-release-maven-repository:/home/jenkins/.m2'
 
 pipeline {
     agent any
