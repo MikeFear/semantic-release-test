@@ -1,3 +1,10 @@
+## [1.0.5](https://git.zueri.io/tool/semantic-release-test/compare/1.0.4...1.0.5) (2020-02-03)
+
+
+### Bug Fixes
+
+* Fixed text file ([f326744](https://git.zueri.io/tool/semantic-release-test/commit/f326744b4407b44dcfe18b8b4d297230d5d73868))
+
 ## [1.0.4](https://git.zueri.io/tool/semantic-release-test/compare/1.0.3...1.0.4) (2020-02-03)
 
 
