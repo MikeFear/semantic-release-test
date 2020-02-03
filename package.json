@@ -18,7 +18,9 @@
 					"prepareCmd": "./scripts/prepare.sh ${nextRelease.version}"
 				}
 			],
-			"@semantic-release/git"
+			["@semantic-release/git", {
+				"assets": ["CHANGELOG.md", "pom.xml"]
+			}]
 		]
 	}
 }
