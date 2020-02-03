@@ -1,3 +1,10 @@
+## [1.0.6](https://git.zueri.io/tool/semantic-release-test/compare/1.0.5...1.0.6) (2020-02-03)
+
+
+### Bug Fixes
+
+* Adjusted assets for git plugin ([e0eb546](https://git.zueri.io/tool/semantic-release-test/commit/e0eb54665c4fe1fc8a3dccf074a39eff3363db92))
+
 ## [1.0.5](https://git.zueri.io/tool/semantic-release-test/compare/1.0.4...1.0.5) (2020-02-03)
 
 
