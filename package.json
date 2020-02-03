@@ -13,7 +13,7 @@
 			"@semantic-release/release-notes-generator",
 			"@semantic-release/changelog",
 			["maven-semantic-release", {
-				"flags": "--skip-maven-deploy"
+				"skip-maven-deploy": "true"
 			}],
 			"@semantic-release/git"
 		]
